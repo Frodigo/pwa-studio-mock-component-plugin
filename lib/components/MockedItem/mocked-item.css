@@ -1,0 +1,8 @@
+.mockedItem {
+    border-bottom: 1px solid var(--mock-component-border);
+    padding: 15px 0;
+}
+
+.secondaryHeading {
+    composes: secondaryHeading from '../MockComponent/mock-component.css';
+}

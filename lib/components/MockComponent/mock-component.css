@@ -1,0 +1,20 @@
+:root {
+    --mock-component-primary-heading-font-size: 48px;
+    --mock-component-secondary-heading-font-size: 24px;
+    --mock-component-border: grey;
+}
+
+.root {
+    margin: 15px;
+}
+
+.primaryHeading {
+    font-size: var(--mock-component-primary-heading-font-size);
+    font-weight: bold;
+}
+
+.secondaryHeading {
+    font-size: var(--mock-component-secondary-heading-font-size);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
